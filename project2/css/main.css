@@ -1,0 +1,56 @@
+body {
+	background: -webkit-linear-gradient(#17607D, #002A4A); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#17607D, #002A4A); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#17607D, #002A4A); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#17607D, #002A4A); /* Standard syntax */
+}
+
+#container {
+	width: 970px;
+	margin: 15px auto;
+	padding: 20px;
+	border: 4px solid #47D9BF;
+	background-color: #FFF1CE;
+	}
+
+#navigation {
+	width: 920px;
+	margin: 0px auto;
+	border-top: 2px solid #002A4A;
+	border-bottom: 1px solid #002A4A;
+	}
+	
+#main-content {
+	width: 900px;
+	margin: 10px auto;
+	color: #1A261B;
+}
+
+#links_list {
+	list-style-type: none;
+	text-align: center;
+	}
+
+.nav_Element {
+	display: inline;
+	margin: 0px 20px;
+	}
+	
+#reference {
+	text-align: right;
+	}
+
+h1 {
+	color: #002A4A;
+	text-align: center;
+	}
+
+h2 {
+	color: #FF9311;
+	}
+	
+img {
+	box-shadow: 3px 3px 5px #F5D76E;
+	border-radius: 20px;
+	border: 2px solid #47D9BF;
+	}
