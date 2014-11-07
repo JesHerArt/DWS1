@@ -13,17 +13,20 @@
 		<meta charset="utf-8"/>
 		<title>Sea Turtle Restoration Project</title>
 		<link href="css/main.css" rel="stylesheet" />
+		<link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic' rel='stylesheet' type='text/css'>
 	</head>
 	
 	<body>
 		
 		<div id="container">
 		
-			<h1 id="top">Sea Turtle Restoration Project</h1>
+			<h1 id="top">Sea Turtle Restoration Project</h1><!-- Site Main Heading -->
 		
 		
 			<div id="navigation">
 				<ul id="links_list"> <!-- Beginning of nav list -->
+					<li class="nav_Element" id='current-page'><a href="index.html">Home</a></li>
 					<li class="nav_Element"><a href="#overview">Overview</a></li>
 					<li class="nav_Element"><a href="#history">History</a></li>
 					<li class="nav_Element"><a href="#programs">Programs</a></li>
@@ -97,11 +100,13 @@
 		
 				<p>Some of the top endangered sea turtles are the:</p>
 		
-				<ol>
-					<li>Loggerhead Sea Turtles</li>
-					<li>Leatherback Sea Turtles</li>
-					<li>Green Sea Turtles</li>
-				</ol>
+				<div id='turtle-list'>
+					<ol>
+						<li>Loggerhead Sea Turtles</li>
+						<li>Leatherback Sea Turtles</li>
+						<li>Green Sea Turtles</li>
+					</ol>
+				</div><!-- End of Tutle List Div -->
 		
 				<figure>
 					<a href="images/loggerhead_turtle.jpg"><img src="images/loggerhead_turtle.jpg" alt="Loggerhead Sea Turtle" title="Loggerhead Sea Turtle" /></a>
@@ -119,10 +124,11 @@
 				</figure>
 				<!-- End of images -->
 
-		
-				<p><a href="#top">Top of page</a></p>
 				
 				<p id="reference">Resource: <a href="http://en.wikipedia.org/wiki/Sea_Turtle_Restoration_Project">Wikipedia - The Free Encyclopedia</a></p>
+				
+				<p id="bottom-to-top-link"><a href="#top">Top of page</a></p>
+				
 			</div> <!-- End of Main Content Div -->	
 			
 		</div> <!-- End of Container Div -->
