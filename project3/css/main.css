@@ -1,9 +1,9 @@
 /* ------------- Main Styles ------------- */
 body {
-	background: -webkit-linear-gradient(#17607D, #002A4A); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#17607D, #002A4A); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#17607D, #002A4A); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#17607D, #002A4A); /* Standard syntax */
+	background: url("../images/seaweed.png") repeat-x bottom, -webkit-linear-gradient(#17607D, #002A4A); /* For Safari 5.1 to 6.0 */
+	background: url("../images/seaweed.png") repeat-x bottom, -o-linear-gradient(#17607D, #002A4A); /* For Opera 11.1 to 12.0 */
+	background: url("../images/seaweed.png") repeat-x bottom, -moz-linear-gradient(#17607D, #002A4A); /* For Firefox 3.6 to 15 */
+	background: url("../images/seaweed.png") repeat-x bottom, linear-gradient(#17607D, #002A4A); /* Standard syntax */
 	font-family: 'Source Sans Pro', sans-serif;
 	}
 	
@@ -58,10 +58,6 @@ h3 {
 	text-align: center;
 	}
 
-.nav_Element {
-	display: inline;
-	margin: 0px 30px;
-	}
 	
 
 
@@ -72,6 +68,13 @@ h3 {
 		
 #turtle-list {
 	line-height: 18px;
+	}
+	
+#links_list li {
+	display: inline-block;
+	margin: 0 65px 0 0;
+	background: url("../images/turtle-icon.png") no-repeat center left;
+	padding: 0 0 0 27px;
 	}
 
 
