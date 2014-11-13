@@ -12,21 +12,25 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>Sea Turtle Restoration Project</title>
+		
+		<!-- CSS -->
 		<link href="css/main.css" rel="stylesheet" />
+		
+		<!-- Google Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic' rel='stylesheet' type='text/css'>
 	</head>
 	
 	<body>
 		
-		<div id="container">
+		<div id="container"> <!-- Container to hold all html content -->
 		
 			<h1 id="top">Sea Turtle Restoration Project</h1><!-- Site Main Heading -->
 		
 		
 			<div id="navigation">
 				<ul id="links_list"> <!-- Beginning of nav list -->
-					<li id='current-page'><a href="index.html">Home</a></li>
+					<li id="current-page"><a href="index.html">Home</a></li>
 					<li><a href="#overview">Overview</a></li>
 					<li><a href="#history">History</a></li>
 					<li><a href="#programs">Programs</a></li>
@@ -35,7 +39,7 @@
 			</div> <!-- End of Navigation Div -->
 		
 		
-			<div id="main-content">
+			<div id="main-content"> <!-- Start of Main Content Div -->
 				<!-- Start of overview information -->
 				<h2 id="overview">Overview</h2>
 		
@@ -100,7 +104,7 @@
 		
 				<p>Some of the top endangered sea turtles are the:</p>
 		
-				<div id='turtle-list'>
+				<div id='turtle-list'><!-- Start of Tutle List Div -->
 					<ol>
 						<li>Loggerhead Sea Turtles</li>
 						<li>Leatherback Sea Turtles</li>
@@ -109,27 +113,33 @@
 				</div><!-- End of Tutle List Div -->
 		
 		
-				<!-- Start of Picture Columns -->
-				<div class="home-turtle-pics">
-					<figure>
-						<a href="images/loggerhead_turtle.jpg"><img src="images/loggerhead_turtle.jpg" alt="Loggerhead Sea Turtle" title="Loggerhead Sea Turtle" /></a>
-						<figcaption>Loggerhead Sea Turtle  |  Photo Credit: <a href="https://www.flickr.com/photos/51035677132@N01/380355/">coda</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">cc</a></figcaption>
-					</figure>
-				</div>	
-		
-				<div class="home-turtle-pics">
-					<figure>
-						<a href="images/leatherback_turtle.jpg"><img src="images/leatherback_turtle.jpg" alt="Baby Leatherback Sea Turtle" title="Baby Leatherback Sea Turtle" /></a>
-						<figcaption>Baby Leatherback Sea Turtle  |  Photo Credit: <a href="https://www.flickr.com/photos/22334116@N00/2576044174/">Jual</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a></figcaption>
-					</figure>
-				</div>	
+				<div class="turtle-wrapper"> <!-- Container for all the images -->
 				
-				<div class="home-turtle-pics">
-					<figure>
-						<a href="images/green_turtle.jpg"><img src="images/green_turtle.jpg" alt="Green Sea Turtle" title="Green Sea Turtle" /></a>
-						<figcaption>Green Sea Turtle  |  Photo Credit: <a href="http://www.linkedin.com/in/jesherart/">Jessica J. Hernandez</a></figcaption>
-					</figure>
-				</div><!-- End of Picture Columns -->
+					<!-- Image Column One -->
+					<div class="home-turtle-pics">
+						<a href="images/loggerhead_turtle.jpg"><img class="img" src="images/loggerhead_turtle.jpg" alt="Loggerhead Sea Turtle" title="Loggerhead Sea Turtle" /></a>
+						<figure>
+							<figcaption>Loggerhead Sea Turtle  |  Photo Credit: <a href="https://www.flickr.com/photos/51035677132@N01/380355/">coda</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">cc</a></figcaption>
+						</figure>
+					</div>	
+		
+					<!-- Image Column Two -->
+					<div class="home-turtle-pics">
+						<a href="images/leatherback_turtle.jpg"><img class="img" src="images/leatherback_turtle.jpg" alt="Baby Leatherback Sea Turtle" title="Baby Leatherback Sea Turtle" /></a>
+						<figure>
+							<figcaption>Baby Leatherback Sea Turtle  |  Photo Credit: <a href="https://www.flickr.com/photos/22334116@N00/2576044174/">Jual</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a></figcaption>
+						</figure>
+					</div>	
+				
+					<!-- Image Column Three -->
+					<div class="home-turtle-pics">
+						<a href="images/green_turtle.jpg"><img class="img" src="images/green_turtle.jpg" alt="Green Sea Turtle" title="Green Sea Turtle" /></a>
+						<figure>
+							<figcaption>Green Sea Turtle  |  Photo Credit: <a href="http://www.linkedin.com/in/jesherart/">Jessica J. Hernandez</a></figcaption>
+						</figure>
+					</div>
+				
+				</div><!-- End of Tutle Wrapper div-->
 				<!-- End of images section -->
 
 				
