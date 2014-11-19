@@ -1,0 +1,161 @@
+/* ------------- Main Styles ------------- */
+body {
+	background: url("../images/seaweed.png") repeat-x bottom, -webkit-linear-gradient(#17607D, #002A4A); /* For Safari 5.1 to 6.0 */
+	background: url("../images/seaweed.png") repeat-x bottom, -o-linear-gradient(#17607D, #002A4A); /* For Opera 11.1 to 12.0 */
+	background: url("../images/seaweed.png") repeat-x bottom, -moz-linear-gradient(#17607D, #002A4A); /* For Firefox 3.6 to 15 */
+	background: url("../images/seaweed.png") repeat-x bottom, linear-gradient(#17607D, #002A4A); /* Standard syntax */
+	font-family: 'Source Sans Pro', sans-serif;
+	}
+	
+#container {
+	width: 69%;
+	margin: 1.25% auto;
+	padding: 20px;
+	border: 4px solid #47D9BF;
+	background-color: #FFF1CE;
+	box-shadow: 0px 0px 18px hsla(222, 84%, 24%, 0.66);
+	}
+	
+#main-content {
+	width: 92.8%;
+	margin: 0.635em auto;
+	color: #1A261B;
+	}
+	
+	
+
+/* ------------- Headings ------------- */
+h1 {
+	color: #002A4A;
+	text-align: center;
+	font-family: 'Paytone One', sans-serif;
+	text-shadow: 2px 2px #F5D76E;
+	font-size: 230%;
+	}
+
+h2 {
+	color: #FF9311;
+	font-family: 'Paytone One', sans-serif;
+	}
+	
+h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #0d1773;
+	font-style: italic;
+	}
+
+
+
+/* ------------- Navigation ------------- */
+#navigation {
+	width: 94.8%;
+	margin: 0 auto;
+	border-top: 2px solid #09849f;
+	border-bottom: 1px solid #09849f;
+	background-color: hsla(169, 66%, 56%, 0.17);
+	font-weight: bold;
+	border-radius: 15px;
+	text-align: center;
+	}
+
+	
+
+
+/* ------------- List Elements ------------- */
+#links_list {
+	list-style-type: none;
+	}
+		
+#turtle-list {
+	line-height: 1.125em;
+	}
+	
+#links_list li {
+	display: inline-block;
+	margin: 0 4.063em 0 0;
+	background: url("../images/turtle-icon.png") no-repeat center left;
+	padding: 0 0 0 27px;
+	}
+
+
+
+/* ------------- Images ------------- */
+img {
+	box-shadow: 3px 3px 5px #F5D76E;
+	border-radius: 20px;
+	border: 2px solid #47D9BF;
+	}
+	
+.turtle-wrapper {
+	width: 100%;
+	}
+	
+.home-turtle-pics {
+	float: left;
+	width: 30%;
+	margin: 0.5%;
+	padding: 0.1em;
+	}
+	
+.img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	}
+		
+figure{
+	margin: 0;
+	}
+
+	
+figcaption {
+	width: 90%;
+	padding: 0.4em 0 0 0.7em;
+	}
+
+
+
+/* ------------- Links ------------- */
+a:link {
+	color: #D64700;
+	text-decoration: none;
+	}
+	
+a:visited {
+	color: #3498db;
+	text-decoration: none;
+	}
+	
+a:hover, #current-page {
+	color: #47D9BF;
+	background-color: hsla(360, 100%, 100%, 0.67) !important;
+	text-decoration: underline;
+	}
+	
+a:active {
+	color: #f1c40f;
+	text-decoration: underline;
+	}
+
+
+
+/* --------- Other Element Styles --------- */
+
+strong {
+	color: #66CF6A;
+	text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.10);
+	}
+	
+figure , blockquote, #reference, #bottom-to-top-link{
+	font-size: 0.8em;
+	}
+
+#reference {
+	text-align: right;
+	font-style: italic;
+	padding-top: 20px;
+	}
+	
+.clear {
+	clear: left;
+	}
