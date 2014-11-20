@@ -32,6 +32,11 @@ body {
 	border-left: 1px solid #47D9BF;
 	}
 	
+#status-data, #contact-form{
+	width: 91%;
+	margin: 0 auto;
+	}
+	
 
 /* ------------- Headings ------------- */
 h1 {
@@ -42,7 +47,7 @@ h1 {
 	font-size: 230%;
 	}
 
-h2 {
+h2, legend {
 	color: #FF9311;
 	font-family: 'Paytone One', sans-serif;
 	}
@@ -81,9 +86,17 @@ nav {
 	
 #links_list li {
 	display: inline-block;
-	margin: 0 4.063em 0 0;
+	margin: 0 3.08em 0 0;
 	background: url("../images/turtle-icon.png") no-repeat center left;
 	padding: 0 0 0 27px;
+	}
+	
+dt {
+	font-weight: bold;
+	}
+
+dd {
+	margin-bottom: 1%;
 	}
 
 
@@ -102,7 +115,7 @@ img {
 	
 .home-turtle-pics {
 	float: left;
-	width: 60%;
+	width: 70%;
 	margin: 0.5%;
 	padding: 0.1em;
 	}
@@ -175,6 +188,126 @@ figure , blockquote, #reference, #bottom-to-top-link{
 	margin-top: 0;
 	}
 	
+#bottom-to-top-link {
+	margin-top: 6%;
+	}
+	
+	
+	
+/* --------- Table Elements --------- */
+#species-table {
+	border-collapse: collapse;
+	border: 2px solid #09849f;
+	}
+
+
+th, td {
+	background: hsla(169, 66%, 56%, 0.17);
+	padding: 5px 10px;
+	font-size: 90%;
+	border: 1px dotted #09849f;
+	}
+	
+th {
+	width: 9em;
+	text-align: right;
+	color: #002A4A;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	}
+
+td {
+	width: 15em;
+	}
+	
+.even {
+	background: hsla(189, 76%, 56%, 0.17);
+	}
+	
+tr:hover {
+	background: #66CF6A;
+	}
+	
+td:hover {
+	text-transform: uppercase;
+	color: #fff;
+	}
+	
 	
 	
 /* --------- Form Elements --------- */
+#contact-form {
+	border-top: 1px solid #47D9BF;
+	margin-top: 3%
+	}
+
+fieldset {
+	width: 55%;
+	margin-top: 3%;
+	padding: 2%;
+	border: 2px solid #66CF6A;
+	background: hsla(169, 66%, 56%, 0.17);
+	}
+	
+#yes, #no {
+	width: 2em;
+	}
+	
+.radio-button {
+	margin-right: 2em;
+	}	
+
+legend {
+	font-size: 160%;
+	}
+
+
+.title {
+	float: left;
+	width: 40%;
+	color: #002A4A;
+	clear: left;
+	}
+	
+input {
+	width: 35%;
+	border: 1px solid #d6d6d6;
+	padding: 2%;
+	}
+	
+textarea {
+	margin-top: 2%;
+	}
+	
+input:hover, textarea:hover {
+	background-color: #dae382;
+	border: 1px solid #09849f;
+	}
+	
+input:focus, textarea:focus {
+	background: #cdf9ee;
+	border: 1px solid #09849f;
+	}
+
+#submit {
+	text-align: right;
+	width: 57%;
+	}
+	
+#submit input {
+	border: 1px solid #002A4A;
+	background: #47D9BF;
+	color: #fff;
+	padding: 1%;
+	margin-top: 2%;
+	border-radius: 7px;
+	font-size: 80%;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	}
+	
+#submit input:hover {
+	background-color: #66CF6A;
+	cursor: pointer;
+	}
